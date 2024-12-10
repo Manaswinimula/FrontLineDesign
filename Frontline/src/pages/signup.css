@@ -1,0 +1,40 @@
+
+  /* Centering and animating the Signup title */
+  .signup-title {
+    margin: 20px 0;
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); /* Slide from above */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Final position */
+    }
+  }
+  
+  /* Adjusting the .signup-page for centering */
+  .signup-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: #f0f8ff; /* Soft background color */
+    font-family: 'Arial', sans-serif;
+  }
+  .error {
+    color: #ff6b6b;
+    font-size: 0.85rem;
+    margin-top: 5px;
+  }
+  

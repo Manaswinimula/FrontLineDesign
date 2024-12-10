@@ -1,0 +1,52 @@
+.about-us-page {
+    padding: 50px;
+    background-color: #f8f9fa; /* Light gray for a clean background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .about-us-title {
+    font-size: 3rem;
+    color: #1e40af; /* Dark blue for consistency */
+    margin-bottom: 20px;
+  }
+  
+  .about-us-description {
+    font-size: 1.2rem;
+    color: #555; /* Neutral gray for easy readability */
+    margin-bottom: 40px;
+  }
+  
+  .about-us-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .about-section {
+    background-color: #ffffff; /* White card-style boxes */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-section:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
+  .about-section h2 {
+    font-size: 1.5rem;
+    color: #0ea5e9; /* Light blue for subheadings */
+    margin-bottom: 10px;
+  }
+  
+  .about-section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
