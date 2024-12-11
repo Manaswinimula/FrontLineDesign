@@ -5,6 +5,7 @@ import Content from "../pages/Content";
 import AboutUs from "../pages/AboutUs"; 
 import Login from "../pages/login";
 import Signup from "../pages/signup";
+import ContactUs from "../pages/ContactUs"
 
 function AppRouter() {
   return (
@@ -12,6 +13,7 @@ function AppRouter() {
      <MainLayout>
         <Routes>
             <Route path="/" element={<Content />} />
+            <Route path="/contact" element={<ContactUs/>}/>
             <Route path="/about" element={<AboutUs />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
